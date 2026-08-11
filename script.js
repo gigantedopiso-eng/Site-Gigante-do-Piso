@@ -25,4 +25,12 @@ drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
   burgerBtn.setAttribute('aria-expanded','false');
 }));
 
+document.getElementById('email-link').addEventListener('click', function(e) {
+  e.preventDefault();
+  const user = 'gigantedopiso';
+  const domain = 'gmail.com';
+  this.href = 'mailto:' + user + '@' + domain;
+  this.textContent = user + '@' + domain;
+});
+
 document.getElementById('year').textContent = new Date().getFullYear();
