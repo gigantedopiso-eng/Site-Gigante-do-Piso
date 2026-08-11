@@ -317,6 +317,13 @@ section.pad{padding:110px 0;}
 .cta-banner p{font-family:var(--ff-mono); font-size:14px; margin-bottom:34px; letter-spacing:.04em;}
 .cta-banner .btn-solid{background:#171208; color:var(--paper);}
 .cta-banner .btn-solid:hover{background:#231a10;}
+.cta-banner .eyebrow{
+  justify-content:center;
+  color:#171208;
+}
+.cta-banner .eyebrow::before{
+  background:#171208;
+}
 
 /* ============ FOOTER ============ */
 footer{background:var(--bg-panel-2); padding:64px 0 28px; border-top:1px solid var(--line);}
